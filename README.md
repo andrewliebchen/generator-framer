@@ -6,7 +6,13 @@ A [Yeoman](http://yeoman.io) generator for [FramerJS](https://framer.com) projec
 
 This generator is not registered on NPM. To use, you have to clone it locally and link it manually.
 
-First, clone this repo,
+First, install Yeoman via NPM. This whole damn party runs on Yeoman:
+
+```
+npm i -g yo
+```
+
+Then, clone this repo:
 
 ```
 git clone git@github.com:andrewliebchen/generator-framer.git
@@ -58,4 +64,4 @@ The `color` function includes the FIG `light-` series palette, as well as `blue`
 
 ## Questions?
 
-Hit me up on Messenger. 
+Hit me up on Messenger.
