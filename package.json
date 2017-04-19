@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Scaffold your Framer project",
   "main": "index.js",
+  "files": [
+    "app"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +15,7 @@
   "author": "Andrew Liebchen <andrewliebchen@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "ncp": "^2.0.0",
     "yeoman-generator": "^1.1.1"
   }
 }
