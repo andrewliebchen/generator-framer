@@ -16,6 +16,7 @@ module.exports = class extends Generator {
   }
 
   end() {
-    this.log('Framer project created. Have fun!');
+    this.log('Framer project created. Opening...');
+    this.spawnCommand('open', ['-a', 'framer.app', this.options.appname + '.framer']);
   }
 };
